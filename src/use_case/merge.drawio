@@ -1,0 +1,76 @@
+<mxfile host="Electron" modified="2023-04-24T05:59:00.393Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.1 Chrome/112.0.5615.87 Electron/24.1.2 Safari/537.36" etag="eOSiMZ_FnCxoVw8qwvRm" version="21.2.1" type="device">
+  <diagram name="第 1 页" id="lEx7Q6KAq-QnrjtuThWq">
+    <mxGraphModel dx="989" dy="577" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="312jcwu3gTj9Tzt6515J-1" value="Publisher" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="235" y="365" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="312jcwu3gTj9Tzt6515J-2" value="合并文档" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="360" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="312jcwu3gTj9Tzt6515J-3" value="合并线上文档" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="300" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="312jcwu3gTj9Tzt6515J-4" value="合并本地文档" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="544" y="420" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="312jcwu3gTj9Tzt6515J-5" value="合并方式" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="500" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="312jcwu3gTj9Tzt6515J-6" value="主键合并" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="610" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="312jcwu3gTj9Tzt6515J-7" value="行头合并" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="650" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="312jcwu3gTj9Tzt6515J-8" value="强行合并" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="610" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="312jcwu3gTj9Tzt6515J-9" value="Includes" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="312jcwu3gTj9Tzt6515J-8" target="312jcwu3gTj9Tzt6515J-5">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="260" y="470" as="sourcePoint" />
+            <mxPoint x="420" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="312jcwu3gTj9Tzt6515J-11" value="Includes" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="312jcwu3gTj9Tzt6515J-7">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="270" y="480" as="sourcePoint" />
+            <mxPoint x="420" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="312jcwu3gTj9Tzt6515J-12" value="Includes" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="312jcwu3gTj9Tzt6515J-6" target="312jcwu3gTj9Tzt6515J-5">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="280" y="490" as="sourcePoint" />
+            <mxPoint x="440" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="312jcwu3gTj9Tzt6515J-13" value="Extends" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="312jcwu3gTj9Tzt6515J-5" target="312jcwu3gTj9Tzt6515J-2">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="260" y="620" as="sourcePoint" />
+            <mxPoint x="430" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="312jcwu3gTj9Tzt6515J-14" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="312jcwu3gTj9Tzt6515J-3" target="312jcwu3gTj9Tzt6515J-2">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="350" y="430" as="sourcePoint" />
+            <mxPoint x="510" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="312jcwu3gTj9Tzt6515J-15" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="312jcwu3gTj9Tzt6515J-4" target="312jcwu3gTj9Tzt6515J-2">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="360" y="440" as="sourcePoint" />
+            <mxPoint x="520" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="312jcwu3gTj9Tzt6515J-16" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="312jcwu3gTj9Tzt6515J-1" target="312jcwu3gTj9Tzt6515J-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="420" as="sourcePoint" />
+            <mxPoint x="320" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

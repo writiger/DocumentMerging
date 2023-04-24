@@ -1,0 +1,93 @@
+<mxfile host="Electron" modified="2023-04-21T09:16:28.926Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.1 Chrome/112.0.5615.87 Electron/24.1.2 Safari/537.36" etag="PDeQ6BJuA0oyVthixL4i" version="21.2.1" type="device">
+  <diagram name="第 1 页" id="TaZKIQBUsV19Bjjg31Jk">
+    <mxGraphModel dx="1434" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="IYGI5N-7cRo2uVvMuQ5Z-3" value="Publisher（1级用户）" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
+          <mxGeometry x="95" y="350" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IYGI5N-7cRo2uVvMuQ5Z-4" value="分级功能" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="220" y="260" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="IYGI5N-7cRo2uVvMuQ5Z-5" value="保存功能" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="220" y="440" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="IYGI5N-7cRo2uVvMuQ5Z-6" value="查看" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="470" y="140" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="IYGI5N-7cRo2uVvMuQ5Z-7" value="填写" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="470" y="280" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="IYGI5N-7cRo2uVvMuQ5Z-8" value="Filler（3级用户）" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
+          <mxGeometry x="745" y="285" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IYGI5N-7cRo2uVvMuQ5Z-9" value="Viewer（2级用户）" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
+          <mxGeometry x="745" y="145" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IYGI5N-7cRo2uVvMuQ5Z-12" value="常驻" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="470" y="570" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="IYGI5N-7cRo2uVvMuQ5Z-13" value="定期销毁" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="470" y="430" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="IYGI5N-7cRo2uVvMuQ5Z-14" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="IYGI5N-7cRo2uVvMuQ5Z-3" target="IYGI5N-7cRo2uVvMuQ5Z-4" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="420" as="sourcePoint" />
+            <mxPoint x="430" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IYGI5N-7cRo2uVvMuQ5Z-15" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="IYGI5N-7cRo2uVvMuQ5Z-3" target="IYGI5N-7cRo2uVvMuQ5Z-5" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="410" as="sourcePoint" />
+            <mxPoint x="310" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IYGI5N-7cRo2uVvMuQ5Z-16" value="Include" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="IYGI5N-7cRo2uVvMuQ5Z-6" target="IYGI5N-7cRo2uVvMuQ5Z-4" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="185" y="220" as="sourcePoint" />
+            <mxPoint x="345" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IYGI5N-7cRo2uVvMuQ5Z-17" value="Include" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="IYGI5N-7cRo2uVvMuQ5Z-7" target="IYGI5N-7cRo2uVvMuQ5Z-4" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="454" y="265" as="sourcePoint" />
+            <mxPoint x="364" y="365" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IYGI5N-7cRo2uVvMuQ5Z-19" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="IYGI5N-7cRo2uVvMuQ5Z-9" target="IYGI5N-7cRo2uVvMuQ5Z-6" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="445" y="270" as="sourcePoint" />
+            <mxPoint x="495" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IYGI5N-7cRo2uVvMuQ5Z-20" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="IYGI5N-7cRo2uVvMuQ5Z-7" target="IYGI5N-7cRo2uVvMuQ5Z-8" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="445" y="270" as="sourcePoint" />
+            <mxPoint x="495" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IYGI5N-7cRo2uVvMuQ5Z-22" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="IYGI5N-7cRo2uVvMuQ5Z-13" target="IYGI5N-7cRo2uVvMuQ5Z-5" edge="1">
+          <mxGeometry x="-0.125" width="160" relative="1" as="geometry">
+            <mxPoint x="254" y="570" as="sourcePoint" />
+            <mxPoint x="414" y="570" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IYGI5N-7cRo2uVvMuQ5Z-23" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="IYGI5N-7cRo2uVvMuQ5Z-12" target="IYGI5N-7cRo2uVvMuQ5Z-5" edge="1">
+          <mxGeometry x="-0.125" width="160" relative="1" as="geometry">
+            <mxPoint x="264" y="580" as="sourcePoint" />
+            <mxPoint x="424" y="580" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7QolFjnkF9FWPQXcOFJb-1" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="IYGI5N-7cRo2uVvMuQ5Z-7" target="IYGI5N-7cRo2uVvMuQ5Z-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="450" as="sourcePoint" />
+            <mxPoint x="440" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,76 @@
+<mxfile host="Electron" modified="2023-04-21T09:33:34.381Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.1 Chrome/112.0.5615.87 Electron/24.1.2 Safari/537.36" etag="rB4krpxjRJS_8fR125W8" version="21.2.1" type="device">
+  <diagram name="第 1 页" id="UC-NoCE8Qr9sXDWpvfq6">
+    <mxGraphModel dx="989" dy="577" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="EDIflOC075SkroV8L2ij-1" value="Publisher" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="370" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EDIflOC075SkroV8L2ij-2" value="生成问卷" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="230" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="EDIflOC075SkroV8L2ij-3" value="使用Excel生成" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="140" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="EDIflOC075SkroV8L2ij-4" value="使用命令行生成" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="230" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="EDIflOC075SkroV8L2ij-5" value="使用前端生成" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="320" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="EDIflOC075SkroV8L2ij-6" value="设置层级" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="510" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="EDIflOC075SkroV8L2ij-8" value="填写2级用户" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="440" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="EDIflOC075SkroV8L2ij-9" value="填写3级用户" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="585" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="EDIflOC075SkroV8L2ij-12" value="Includes" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="EDIflOC075SkroV8L2ij-9" target="EDIflOC075SkroV8L2ij-6">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="300" y="614.86" as="sourcePoint" />
+            <mxPoint x="460" y="614.86" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EDIflOC075SkroV8L2ij-13" value="Includes" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EDIflOC075SkroV8L2ij-8" target="EDIflOC075SkroV8L2ij-6">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="410" y="560" as="sourcePoint" />
+            <mxPoint x="570" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EDIflOC075SkroV8L2ij-14" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="EDIflOC075SkroV8L2ij-4" target="EDIflOC075SkroV8L2ij-2">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="380" y="280" as="sourcePoint" />
+            <mxPoint x="540" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EDIflOC075SkroV8L2ij-15" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="EDIflOC075SkroV8L2ij-5" target="EDIflOC075SkroV8L2ij-2">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="390" y="290" as="sourcePoint" />
+            <mxPoint x="550" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EDIflOC075SkroV8L2ij-16" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="EDIflOC075SkroV8L2ij-3" target="EDIflOC075SkroV8L2ij-2">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="400" y="300" as="sourcePoint" />
+            <mxPoint x="560" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EDIflOC075SkroV8L2ij-17" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EDIflOC075SkroV8L2ij-1" target="EDIflOC075SkroV8L2ij-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="360" as="sourcePoint" />
+            <mxPoint x="430" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EDIflOC075SkroV8L2ij-18" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EDIflOC075SkroV8L2ij-1" target="EDIflOC075SkroV8L2ij-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="360" as="sourcePoint" />
+            <mxPoint x="430" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -34,7 +34,7 @@
 
 ### Excel表格生成问卷星
 
-![1](C:/Users/Administrator/Desktop/文档合并/pics/1.png)
+![1](./pics/1.png)
 
 | 行数 | 意义                                            |
 | ---- | ----------------------------------------------- |
@@ -149,13 +149,24 @@
 
 ## 登录
 
+![login](./src/activities/login.drawio.png)
+
 ## 发布问卷
+
+![release](./src/activities/release.drawio.png)
 
 ## 填写问卷
 
+![fill](./src/activities/fill.drawio.png)
+
 ## 生成问卷
+
+![make_questionnaire](./src/activities/make_questionnaire.drawio.png)
 
 ## 生成文档
 
+![make_document](./src/activities/make_document.drawio.png)
+
 ## 合并文档
 
+![merge](./src/activities/merge.drawio.png)

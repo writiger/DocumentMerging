@@ -84,7 +84,7 @@
   * 找回密码（拓展
 * 注册
 
-![login](C:/Users/Administrator/Desktop/文档合并/src/use_case/login.drawio.png)
+![login](./src/use_case/login.drawio.png)
 
 ## 发布问卷
 
@@ -95,7 +95,7 @@
   * 定期销毁（泛化
   * 常驻（泛化
 
-![release](C:/Users/Administrator/Desktop/文档合并/src/use_case/release.drawio.png)
+![release](./src/use_case/release.drawio.png)
 
 ## 填写问卷
 
@@ -105,7 +105,7 @@
   * 撤回问卷（包含
   * 填写问卷（包含
 
-![fill](C:/Users/Administrator/Desktop/文档合并/src/use_case/fill.drawio.png)
+![fill](./src/use_case/fill.drawio.png)
 
 ## 生成问卷
 
@@ -117,7 +117,7 @@
   * 填写查看人：2级（包含、查看问卷结果
   * 填写填写人：3级（包含、仅填写问卷
 
-![make](C:/Users/Administrator/Desktop/文档合并/src/use_case/make_questionnaire.drawio.png)
+![make](./src/use_case/make_questionnaire.drawio.png)
 
 ## 生成文档
 
@@ -125,7 +125,7 @@
   * 生成本地文档（泛化
   * 生成在线查看链接（泛化
 
-![make_document](C:/Users/Administrator/Desktop/文档合并/src/use_case/make_document.drawio.png)
+![make_document](./src/use_case/make_document.drawio.png)
 
 ## 合并文档
 
@@ -137,7 +137,7 @@
   * 通过行头合并
   * 通过新增主键、新增行头合并
 
-![merge](C:/Users/Administrator/Desktop/文档合并/src/use_case/merge.drawio.png)
+![merge](./src/use_case/merge.drawio.png)
 
 # 活动图
 
@@ -145,7 +145,7 @@
 活动图是UML用于对系统的动态行为建模的另一种常用工具,它描述活动的顺序，展现从一个活动到另一个活动的控制流,活动图在本质上是一种流程图；活动图着重表现从一个活动到另一个活动的控制流。
 ~~~
 
-![eg](C:/Users/Administrator/Desktop/文档合并/src/activities/eg.png)
+![eg](./src/activities/eg.png)
 
 ## 登录
 
